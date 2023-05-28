@@ -56,9 +56,9 @@ def goal_reached(messages, goal: str) -> bool:
 
 def agent_interaction(goal: str):
     payload = {
-        "model": "gpt-3.5-turbo",
+        "model": "gpt-4",
         "messages": [],
-        "temperature": 0.7
+        "temperature": 0.2
     }
 
     # Get all the agents from the agents/ directory

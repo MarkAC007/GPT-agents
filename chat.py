@@ -43,9 +43,9 @@ chat_history = truncate_context(chat_history)
 
 # Define the request payload
 payload = {
-    "model": "gpt-3.5-turbo",
+    "model": "gpt-4",
     "messages": [],
-    "temperature": 0.7
+    "temperature": 0.1
 }
 
 # Convert chat history to messages for the payload
